@@ -46,3 +46,11 @@ except Exception as e:
     print(f"\nOcurrió un error al llamar a la API: {e}")
     print("Esto podría ser un problema de sobrecarga, autenticación o un error en la solicitud.")
     print("Verifica tu clave API y vuelve a intentarlo más tarde si el error persiste.")
+
+'''
+Enviando prompt al modelo: '¿Puedes explicar brevemente qué es la inteligencia artificial?'
+
+Respuesta del modelo:
+La inteligencia artificial (IA) es un campo de la informática que se centra en crear máquinas capaces de realizar tareas que normalmente requieren inteligencia humana.  Esto incluye el aprendizaje, la resolución de problemas, el razonamiento, la percepción y la comprensión del lenguaje natural.  En esencia, se trata de simular la inteligencia humana en máquinas.
+
+'''
