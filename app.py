@@ -24,7 +24,7 @@ genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 # Envía un mensaje al modelo
-prompt = "¿Puedes explicar brevemente qué es la inteligencia artificial?"
+prompt = "¿Puedes darme algunas ideas de proyectos en Python usando la apikey de IA de Google?"
 
 print(f"Enviando prompt al modelo: '{prompt}'")
 
