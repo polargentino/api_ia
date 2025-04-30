@@ -1,0 +1,14 @@
+# Ignorar el entorno virtual (pyenv o venv)
+.venv/
+api-env/
+env/
+
+# Ignorar el archivo de variables de entorno (contiene secretos)
+.env
+
+# Ignorar caché de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos específicos del sistema operativo (ej: macOS)
+.DS_Store
